@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
+using TodoApi.Communication.Requests;
+using TodoApi.Communication.Responses;
+
 
 namespace TodoApi.Controllers;
 
 [Route("api/[controller]")] 
 [ApiController]
-public class UsersController : ControllerBase
+public class UserController : ControllerBase
     {
         [HttpGet]
         [Route("{id}")] // query or path
@@ -21,5 +24,16 @@ public class UsersController : ControllerBase
             };
 
             return Ok(user);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(typeof(ResponseRegisterUserJson), StatusCodes.Status201Created)]
+        public IActionResult Create([FromBody] RequestRegisterUserJson request)
+        {
+            var response = new ResponseRegisterUserJson{
+                Id= 1,
+                Name = request.Name,
+            }
+            return Created(string.Empty, response);
         }
     }

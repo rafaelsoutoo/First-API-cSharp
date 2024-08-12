@@ -5,6 +5,7 @@
 /home/felipe/Documents/souto/TodoApi/obj/Debug/net8.0/TodoApi.csproj.CoreCompileInputs.cache
 /home/felipe/Documents/souto/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
 /home/felipe/Documents/souto/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cache
+/home/felipe/Documents/souto/TodoApi/obj/Debug/net8.0/TodoApi.sourcelink.json
 /home/felipe/Documents/souto/TodoApi/bin/Debug/net8.0/appsettings.Development.json
 /home/felipe/Documents/souto/TodoApi/bin/Debug/net8.0/appsettings.json
 /home/felipe/Documents/souto/TodoApi/bin/Debug/net8.0/TodoApi
