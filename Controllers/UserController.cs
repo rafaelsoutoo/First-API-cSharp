@@ -29,11 +29,12 @@ public class UserController : ControllerBase
         [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisterUserJson), StatusCodes.Status201Created)]
         public IActionResult Create([FromBody] RequestRegisterUserJson request)
-        {
-            var response = new ResponseRegisterUserJson{
-                Id= 1,
-                Name = request.Name,
+            {
+                var response = new ResponseRegisterUserJson
+                {
+                    Id = 1,
+                    UserName = request.Name,
+                };
+                return Created(string.Empty, response);
             }
-            return Created(string.Empty, response);
-        }
     }

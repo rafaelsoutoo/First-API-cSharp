@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/felipe/Documents/souto/TodoApi/TodoApi.csproj": {}
+    "/home/felipe/Documents/souto/First-API-cSharp/TodoApi.csproj": {}
   },
   "projects": {
-    "/home/felipe/Documents/souto/TodoApi/TodoApi.csproj": {
+    "/home/felipe/Documents/souto/First-API-cSharp/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/felipe/Documents/souto/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/home/felipe/Documents/souto/First-API-cSharp/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/home/felipe/Documents/souto/TodoApi/TodoApi.csproj",
+        "projectPath": "/home/felipe/Documents/souto/First-API-cSharp/TodoApi.csproj",
         "packagesPath": "/home/felipe/.nuget/packages/",
-        "outputPath": "/home/felipe/Documents/souto/TodoApi/obj/",
+        "outputPath": "/home/felipe/Documents/souto/First-API-cSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/felipe/.nuget/NuGet/NuGet.Config"
